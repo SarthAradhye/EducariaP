@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educaria|Yolo</title>
+    <style>
+        .ag-format-container {
+            width: 1142px;
+            margin: 0 auto;
+        }
+
+
+        body {
+            background-color: #000;
+        }
+
+        .ag-courses_box {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: start;
+            -ms-flex-align: start;
+            align-items: flex-start;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+
+            padding: 50px 0;
+        }
+
+        .ag-courses_item {
+            -ms-flex-preferred-size: calc(33.33333% - 30px);
+            flex-basis: calc(33.33333% - 30px);
+
+            margin: 0 15px 30px;
+
+            overflow: hidden;
+
+            border-radius: 28px;
+
+            background-color: #ffffff8e;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="Goback()">Go Back</button>
+    <div class="ag-format-container" style="font-family: Lato;">
+        <div class="ag-courses_box">
+            <div class="ag-courses_item">
+                <iframe width="360" height="215" src="https://www.youtube.com/embed/fhzCwJkDONE?si=rYgaANVv0vpiaoYs"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+                <p>Object dection using Yolo v8</p>
+            </div>
+
+            <div class="ag-courses_item">
+                <iframe width="360" height="215" src="https://www.youtube.com/embed/ag3DLKsl2vk?si=ciHcszDpbYeomkDk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+                <p>Basic working of Yolo and understanding it.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function Goback(){
+            window.location.href="index.html"
+        }
+    </script>
+</body>
+
+</html>

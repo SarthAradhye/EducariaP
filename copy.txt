@@ -1,0 +1,33 @@
+<div class="ag-courses-item_date-box">
+                        Start:
+                        <span class="ag-courses-item_date">
+                            
+                        </span>
+                    </div>
+
+
+.ag-courses-item_date-box {
+    font-size: 18px;
+    color: #FFF;
+  
+    z-index: 2;
+    position: relative;
+  }
+  .ag-courses-item_date {
+    font-weight: bold;
+    color: #f9b234;
+  
+    -webkit-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease
+  }
+<div class="ag-courses_item">
+                <a href="#" class="ag-courses-item_link">
+                    <div class="ag-courses-item_bg"></div>
+
+                    <div class="ag-courses-item_title">
+                        Interior Design
+                    </div>
+                </a>
+            </div>
+
